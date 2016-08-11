@@ -1,0 +1,302 @@
+/* * {
+	border: 2px solid red;
+	padding: 10px
+} */
+* {
+	/*border: 1px solid red;*/
+}
+body {
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+	margin: 0;
+}
+
+/*Tabla*/
+table{
+	width: 100%;
+}
+th{
+	background: #273b47;
+	color:white;
+}
+th{
+	padding: 10px 20px;
+	text-align: left;
+} 
+
+td {
+	padding: 20px;
+}
+table,td,th,caption {
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+caption{
+	background: #18303E;
+	color: white;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+button, .boton {
+	border-radius: 12px;
+	background: #fc324e;
+	color: white;
+	border: none;
+	padding: 7px 12px;
+	font-size: 18px;
+	cursor: pointer;
+	/*background:linear-gradient(to left, #fe344e, #ff7250);*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,f17432+29,ea5507+51,fb955e+81 */
+	background: #feccb1; /* Old browsers */
+	background: -moz-linear-gradient(top, #feccb1 0%, #f17432 29%, #ea5507 51%, #fb955e 81%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 29%,#ea5507 51%,#fb955e 81%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #feccb1 0%,#f17432 29%,#ea5507 51%,#fb955e 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+}
+
+
+input, textarea{
+	outline: 0;
+}
+input:focus, textarea:focus{
+	background: lightgray;
+}
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+.title-a {
+	font-size: 24px;
+	margin-top: 0;
+}
+.contenedor {
+	width: 800px;
+	margin:auto;
+	position: relative;
+}
+.background {
+	background-image: url('../images/background.png');
+	background-size: cover;
+}
+.guitarras {
+	color:#1f313C;
+	margin-bottom: 90px;
+}
+.guitarras h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+.title-b {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.portada {
+	background-repeat: repeat;
+	color: #FFF;
+	padding: 20px;
+	/*height: 500px*/
+}
+.portada button {
+	margin-bottom: 70px;
+}
+.header{
+	position: relative;
+}
+.menu {
+	display: inline-block;
+	font-size: 24px;
+	position: absolute;
+	right: 0;
+}
+.menu li {
+	display: inline-block;
+	margin-left: 30px;
+}
+.logotipo {
+	display: inline-block;
+	margin-left: 0;
+}
+
+
+.guitarra {
+	padding: 10px;
+	margin: 10px 10px 40px 10px;
+	/*overflow: hidden;*/
+	border: 2px solid #1f313C;
+	border-radius: 8px;
+}
+
+.guitarra.b{
+	height: 190px;
+}
+
+.guitarra ol {
+	padding: 0;
+}
+.derecha {
+	float: right;
+	position: relative;
+	top: -127px;
+}
+.izquierda {
+	float: left;
+	position: relative;
+	/*top:80px;*/
+}
+.contenedor-guitarra-a {
+	/*margin-left: 20px;*/
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b {
+	margin-left: 370px;
+	position: relative;
+	bottom: 90px;
+}
+
+
+.menu li:before {
+	content: '*';
+	font-size: 30px;
+	line-height: 20px;
+	color:white;
+}
+.menu a{
+	text-decoration: none;
+	color:white;
+}
+/*FOOTER*/
+.footer {
+	background: #273b47;
+	padding: 50px 10px;
+}
+
+.contacto img{
+	display: block;
+}
+
+.contacto  strong{
+	display: block;
+}
+
+.contacto a{
+	text-decoration: none;
+	color: white;
+	margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor{
+	display:flex;
+	justify-content: space-between;
+
+}
+.contacto {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.formulario {
+	display: flex;
+	width: 445px;
+	color:white;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.col1 {
+	margin-right: 15px;
+}
+
+.intereses label{
+	font-size: 12px;
+}
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo {
+	margin-top: 10px;
+}
+.col2 .boton{
+	margin-top: 15px;
+}
+
+
+
+/*body{
+	background: peru;
+	font-family: 'Allerta', Montserrat', sans-serif;
+}*/
+/*Selector Universal*/
+/** {
+	border: 1px solid red;
+}
+header {
+	background: blue;
+}
+section {
+	background: purple;
+}
+article h3 {
+	color: green;
+}
+.title-a {
+	color: yellow;
+}
+
+.title-b {
+	color: blue;
+}
+
+#header {
+	border: 3px solid black;
+}
+#portada {
+	border: 3px solid orange;
+}
+#guitarras {
+	border: 3px solid yellow;
+}
+
+
+<div class="padre">
+  <div class="hijo">
+    <p>Hola </p>
+    <button>submit</button>
+  </div>
+  <div class="hijo"></div>
+  <div class="hijo"></div>
+  <div class="hijo"></div>
+</div>
+
+
+.padre {
+  border: 1px solid red;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  flex-direction:column;
+}
+.hijo {
+  width: 200px;
+  height: 200px;
+  background:green;
+  border:2px solid orange;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+
+https://dev.w3.org/html5/html-author/charref
